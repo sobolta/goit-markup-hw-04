@@ -16,6 +16,7 @@
     --primary-text-light-color: #FFFFFF;
     --secondary-text-light-color: rgba(255, 255, 255, 0.6);
     --primary-background-color: #F5F5F5;
+    --primary-dark-background-color:#2F303A;
     --secondary-background-color:#2F303A;
     --accent-color: #2196F3;
   }
