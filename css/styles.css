@@ -204,7 +204,7 @@ color: var(--secondary-text-dark-color)
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #2F303A;
+  background-color: rgba(47, 48, 58, 0.4);
 }
 
 .hero-title {
@@ -240,7 +240,7 @@ cursor: pointer;
 padding: 10px 32px;
 border-color: transparent;
 
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 
 margin-top: 30px;
@@ -310,8 +310,9 @@ background-color: var(--accent-color);
 .advantages-title{
   font-size: 14px;
   font-weight: 700;
-  line-height: 1.14;
+  line-height: 16px;
   text-transform: uppercase;
+  letter-spacing: 0.03em;
 
 }
 
@@ -695,7 +696,8 @@ background-color: var(--accent-color);
   background-color: var(--accent-color);
 }
 
-.footer-social-icon {
+.footer-social-icon: :hover,
+.footer-social-icon: :focus {
   height: 20px;
   width: 20px;
   fill: #ffffff;
