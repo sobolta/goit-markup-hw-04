@@ -696,8 +696,7 @@ background-color: var(--accent-color);
   background-color: var(--accent-color);
 }
 
-.footer-social-icon: :hover,
-.footer-social-icon: :focus {
+.footer-social-icon {
   height: 20px;
   width: 20px;
   fill: #ffffff;
