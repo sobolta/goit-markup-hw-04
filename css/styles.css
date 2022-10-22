@@ -313,6 +313,7 @@ background-color: var(--accent-color);
   line-height: 16px;
   text-transform: uppercase;
   letter-spacing: 0.03em;
+  margin-top: 30px;
 
 }
 
@@ -686,10 +687,13 @@ background-color: var(--accent-color);
 
 .footer-social-link {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  
+    transition: background-color var(--transition-dur-and-func);
 }
 
 .footer-social-item:hover,
