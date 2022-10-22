@@ -625,8 +625,9 @@ background-color: var(--accent-color);
   display: block;
   line-height: 1.71;
   text-decoration: none;
-
-  color: var(--secondary-text-light-color)
+  color: var(--secondary-text-light-color);
+  transition: var(--transition-dur-and-func);
+  
 }
 
 .footer .link:hover,
